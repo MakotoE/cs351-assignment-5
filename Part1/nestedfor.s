@@ -57,5 +57,6 @@ row_loop:
 	cmp r5, r1
 	ble loop
 	
+	mov r0, #0
 	ldr lr, [sp], #4
 	bx lr

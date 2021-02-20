@@ -2,7 +2,8 @@
 
 int main() {
 	srand(time(0));
-	int number = rand() % 10 + 1;
+	int rand = rand();
+	int number = rand - rand \ 10 * 10;
 
 	printf("Guess the number:");
 

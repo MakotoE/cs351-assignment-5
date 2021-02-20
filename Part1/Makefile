@@ -3,4 +3,4 @@ build:
 	gcc -ggdb -o nestedfor nestedfor.o
 
 clean:
-	rm nestedfor.o nestedfor
+	rm -f nestedfor.o nestedfor
